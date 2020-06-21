@@ -1,0 +1,7 @@
+API key: PmIJILL1Doghf1IIbve6ZbH6B
+
+API secret key: XMLNS1B9CkRTXggBZSvNR6AnXPiZedhECISE4KMOyUgBfTS9gU
+
+Access token: 115965475-1YzmIChewhoW0tdmB4qrzFqNYFRd0pD5Gi6XPvqO
+
+Access token secret: bCYkdNdbBYP0a87ezYwtPgE5Up7zfMbHzmpNiPGSk9aqg
