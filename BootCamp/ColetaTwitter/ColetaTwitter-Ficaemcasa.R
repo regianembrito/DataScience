@@ -4,10 +4,10 @@ library(rtweet) #Usa a API do twitter library(maps) plotar mapas
 
 setwd("C:\\DataScience\\BootCamp\\ColetaTwitter") #Define diretório de trabalho
 
-token <- create_token(app = "Coletor IGTI - Rbrito", consumer_key='PmIJILL1Doghf1IIbve6ZbH6B',
-                      consumer_secret = 'XMLNS1B9CkRTXggBZSvNR6AnXPiZedhECISE4KMOyUgBfTS9gU',
-                      access_token = '115965475-1YzmIChewhoW0tdmB4qrzFqNYFRd0pD5Gi6XPvqO',
-                      access_secret = 'bCYkdNdbBYP0a87ezYwtPgE5Up7zfMbHzmpNiPGSk9aqg')
+token <- create_token(app = "", consumer_key='',
+                      consumer_secret = '',
+                      access_token = '',
+                      access_secret = '')
 
 # Parâmetros de busca
 search.string <- c("#ficaemcasa OR #coronavirus OR #covid OR #covid-19 OR #covid19") 
