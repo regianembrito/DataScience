@@ -1,0 +1,9 @@
+USER: atlasAdmin
+PASS: CnS5i1HmaR9n3KeU
+DB: ecommerce
+
+URL PARA COMPASS: mongodb+srv://atlasAdmin:CnS5i1HmaR9n3KeU@reportingdata.46tgp.mongodb.net/ecommerce
+
+mongoimport --uri "mongodb+srv://atlasAdmin:CnS5i1HmaR9n3KeU@reportingdata.46tgp.mongodb.net/ecommerce?retryWrites=true&w=majority" --collection transactions --drop --type csv --headerline --file data.csv
+
+mongoimport --uri "mongodb+srv://atlasAdmin:CnS5i1HmaR9n3KeU@reportingdata.46tgp.mongodb.net/ecommerce?retryWrites=true&w=majority" --collection marketing --drop --jsonArray marketing_data.json
